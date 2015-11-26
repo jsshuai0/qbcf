@@ -8,20 +8,223 @@
 package com.ujuit.qbcf;
 
 public final class R {
+    public static final class anim {
+        public static final int slide_in_top=0x7f040000;
+        public static final int slide_out_top=0x7f040001;
+    }
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int SwipeBackLayoutStyle=0x7f010005;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>2</td><td></td></tr>
+<tr><td><code>all</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int edge_flag=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int edge_size=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int msv_emptyView=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int msv_errorView=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int msv_loadingView=0x7f010006;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>content</code></td><td>0</td><td></td></tr>
+<tr><td><code>error</code></td><td>1</td><td></td></tr>
+<tr><td><code>empty</code></td><td>2</td><td></td></tr>
+<tr><td><code>loading</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int msv_viewState=0x7f010009;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptr_content=0x7f01000b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_duration_to_close=0x7f01000e;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_duration_to_close_header=0x7f01000f;
+        /**  Optional. If you put header and content in xml, you can you these to specify them. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptr_header=0x7f01000a;
+        /**  keep header when refreshing
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_keep_header_when_refresh=0x7f010011;
+        /**  pull to refresh, otherwise release to refresh, default is release to refresh 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_pull_to_fresh=0x7f010010;
+        /**  the ration of the height of the header to trigger refresh 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_ratio_of_header_height_to_refresh=0x7f01000d;
+        /**  the resistance when you are moving the frame 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_resistance=0x7f01000c;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ptr_rotate_ani_time=0x7f010012;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadow_bottom=0x7f010004;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadow_left=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadow_right=0x7f010003;
+    }
+    public static final class color {
+        public static final int red=0x7f050000;
+        public static final int white=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int ic_load_error=0x7f020001;
+        public static final int ptr_rotate_arrow=0x7f020002;
+        public static final int shadow_bottom=0x7f020003;
+        public static final int shadow_left=0x7f020004;
+        public static final int shadow_right=0x7f020005;
+        public static final int shape_progress=0x7f020006;
+    }
+    public static final class id {
+        public static final int all=0x7f070001;
+        public static final int bottom=0x7f070002;
+        public static final int content=0x7f070005;
+        public static final int empty=0x7f070006;
+        public static final int error=0x7f070007;
+        public static final int left=0x7f070003;
+        public static final int ll_loading_gridview=0x7f07000e;
+        public static final int loading=0x7f070008;
+        public static final int multi_state_view=0x7f070000;
+        public static final int progress_wheel=0x7f07000f;
+        public static final int ptr_classic_header_rotate_view=0x7f07000c;
+        public static final int ptr_classic_header_rotate_view_header_last_update=0x7f07000b;
+        public static final int ptr_classic_header_rotate_view_header_text=0x7f070009;
+        public static final int ptr_classic_header_rotate_view_header_title=0x7f07000a;
+        public static final int ptr_classic_header_rotate_view_progressbar=0x7f07000d;
+        public static final int right=0x7f070004;
+        public static final int swipe=0x7f070010;
+        public static final int xlistview_footer_content=0x7f070011;
+        public static final int xlistview_footer_hint_textview=0x7f070013;
+        public static final int xlistview_footer_progressbar=0x7f070012;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int cube_ptr_classic_default_header=0x7f030001;
+        public static final int cube_ptr_simple_loading=0x7f030002;
+        public static final int multi_state_view=0x7f030003;
+        public static final int pull_layout_load_fail=0x7f030004;
+        public static final int pull_layout_loading=0x7f030005;
+        public static final int pull_layout_no_data=0x7f030006;
+        public static final int qprogress_dialog=0x7f030007;
+        public static final int swipeback_layout=0x7f030008;
+        public static final int xlistview_footer=0x7f030009;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
+        public static final int app_name=0x7f060009;
+        public static final int cube_ptr_hours_ago=0x7f060008;
+        public static final int cube_ptr_last_update=0x7f060005;
+        public static final int cube_ptr_minutes_ago=0x7f060007;
+        public static final int cube_ptr_pull_down=0x7f060000;
+        public static final int cube_ptr_pull_down_to_refresh=0x7f060001;
+        public static final int cube_ptr_refresh_complete=0x7f060004;
+        public static final int cube_ptr_refreshing=0x7f060003;
+        public static final int cube_ptr_release_to_refresh=0x7f060002;
+        public static final int cube_ptr_seconds_ago=0x7f060006;
+        public static final int hello_world=0x7f06000a;
+        public static final int xlistview_footer_hint_normal=0x7f06000c;
+        public static final int xlistview_footer_hint_ready=0x7f06000d;
+        public static final int xlistview_header_hint_loading=0x7f06000b;
     }
     public static final class style {
         /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    
+
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    
+
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    
+
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
@@ -42,10 +245,342 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
+ Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f080001;
+        public static final int CustomDialog=0x7f080003;
+        public static final int LoadingDialog=0x7f080004;
+        public static final int SwipeBackLayout=0x7f080002;
+        public static final int dialogWindowAnim=0x7f080005;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a MultiStateView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MultiStateView_msv_emptyView com.ujuit.qbcf:msv_emptyView}</code></td><td></td></tr>
+           <tr><td><code>{@link #MultiStateView_msv_errorView com.ujuit.qbcf:msv_errorView}</code></td><td></td></tr>
+           <tr><td><code>{@link #MultiStateView_msv_loadingView com.ujuit.qbcf:msv_loadingView}</code></td><td></td></tr>
+           <tr><td><code>{@link #MultiStateView_msv_viewState com.ujuit.qbcf:msv_viewState}</code></td><td></td></tr>
+           </table>
+           @see #MultiStateView_msv_emptyView
+           @see #MultiStateView_msv_errorView
+           @see #MultiStateView_msv_loadingView
+           @see #MultiStateView_msv_viewState
+         */
+        public static final int[] MultiStateView = {
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#msv_emptyView}
+          attribute's value can be found in the {@link #MultiStateView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:msv_emptyView
+        */
+        public static final int MultiStateView_msv_emptyView = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#msv_errorView}
+          attribute's value can be found in the {@link #MultiStateView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:msv_errorView
+        */
+        public static final int MultiStateView_msv_errorView = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#msv_loadingView}
+          attribute's value can be found in the {@link #MultiStateView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:msv_loadingView
+        */
+        public static final int MultiStateView_msv_loadingView = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#msv_viewState}
+          attribute's value can be found in the {@link #MultiStateView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>content</code></td><td>0</td><td></td></tr>
+<tr><td><code>error</code></td><td>1</td><td></td></tr>
+<tr><td><code>empty</code></td><td>2</td><td></td></tr>
+<tr><td><code>loading</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.ujuit.qbcf:msv_viewState
+        */
+        public static final int MultiStateView_msv_viewState = 3;
+        /** Attributes that can be used with a PtrClassicHeader.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PtrClassicHeader_ptr_rotate_ani_time com.ujuit.qbcf:ptr_rotate_ani_time}</code></td><td></td></tr>
+           </table>
+           @see #PtrClassicHeader_ptr_rotate_ani_time
+         */
+        public static final int[] PtrClassicHeader = {
+            0x7f010012
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#ptr_rotate_ani_time}
+          attribute's value can be found in the {@link #PtrClassicHeader} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ujuit.qbcf:ptr_rotate_ani_time
+        */
+        public static final int PtrClassicHeader_ptr_rotate_ani_time = 0;
+        /** Attributes that can be used with a PtrFrameLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_content com.ujuit.qbcf:ptr_content}</code></td><td></td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_duration_to_close com.ujuit.qbcf:ptr_duration_to_close}</code></td><td></td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_duration_to_close_header com.ujuit.qbcf:ptr_duration_to_close_header}</code></td><td></td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_header com.ujuit.qbcf:ptr_header}</code></td><td> Optional.</td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_keep_header_when_refresh com.ujuit.qbcf:ptr_keep_header_when_refresh}</code></td><td> keep header when refreshing</td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_pull_to_fresh com.ujuit.qbcf:ptr_pull_to_fresh}</code></td><td> pull to refresh, otherwise release to refresh, default is release to refresh </td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_ratio_of_header_height_to_refresh com.ujuit.qbcf:ptr_ratio_of_header_height_to_refresh}</code></td><td> the ration of the height of the header to trigger refresh </td></tr>
+           <tr><td><code>{@link #PtrFrameLayout_ptr_resistance com.ujuit.qbcf:ptr_resistance}</code></td><td> the resistance when you are moving the frame </td></tr>
+           </table>
+           @see #PtrFrameLayout_ptr_content
+           @see #PtrFrameLayout_ptr_duration_to_close
+           @see #PtrFrameLayout_ptr_duration_to_close_header
+           @see #PtrFrameLayout_ptr_header
+           @see #PtrFrameLayout_ptr_keep_header_when_refresh
+           @see #PtrFrameLayout_ptr_pull_to_fresh
+           @see #PtrFrameLayout_ptr_ratio_of_header_height_to_refresh
+           @see #PtrFrameLayout_ptr_resistance
+         */
+        public static final int[] PtrFrameLayout = {
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#ptr_content}
+          attribute's value can be found in the {@link #PtrFrameLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:ptr_content
+        */
+        public static final int PtrFrameLayout_ptr_content = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#ptr_duration_to_close}
+          attribute's value can be found in the {@link #PtrFrameLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ujuit.qbcf:ptr_duration_to_close
+        */
+        public static final int PtrFrameLayout_ptr_duration_to_close = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#ptr_duration_to_close_header}
+          attribute's value can be found in the {@link #PtrFrameLayout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ujuit.qbcf:ptr_duration_to_close_header
+        */
+        public static final int PtrFrameLayout_ptr_duration_to_close_header = 5;
+        /**
+          <p>
+          @attr description
+           Optional. If you put header and content in xml, you can you these to specify them. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ujuit.qbcf:ptr_header
+        */
+        public static final int PtrFrameLayout_ptr_header = 0;
+        /**
+          <p>
+          @attr description
+           keep header when refreshing
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ujuit.qbcf:ptr_keep_header_when_refresh
+        */
+        public static final int PtrFrameLayout_ptr_keep_header_when_refresh = 7;
+        /**
+          <p>
+          @attr description
+           pull to refresh, otherwise release to refresh, default is release to refresh 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ujuit.qbcf:ptr_pull_to_fresh
+        */
+        public static final int PtrFrameLayout_ptr_pull_to_fresh = 6;
+        /**
+          <p>
+          @attr description
+           the ration of the height of the header to trigger refresh 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ujuit.qbcf:ptr_ratio_of_header_height_to_refresh
+        */
+        public static final int PtrFrameLayout_ptr_ratio_of_header_height_to_refresh = 3;
+        /**
+          <p>
+          @attr description
+           the resistance when you are moving the frame 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ujuit.qbcf:ptr_resistance
+        */
+        public static final int PtrFrameLayout_ptr_resistance = 2;
+        /** Attributes that can be used with a SwipeBackLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_flag com.ujuit.qbcf:edge_flag}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_edge_size com.ujuit.qbcf:edge_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_bottom com.ujuit.qbcf:shadow_bottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_left com.ujuit.qbcf:shadow_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwipeBackLayout_shadow_right com.ujuit.qbcf:shadow_right}</code></td><td></td></tr>
+           </table>
+           @see #SwipeBackLayout_edge_flag
+           @see #SwipeBackLayout_edge_size
+           @see #SwipeBackLayout_shadow_bottom
+           @see #SwipeBackLayout_shadow_left
+           @see #SwipeBackLayout_shadow_right
+         */
+        public static final int[] SwipeBackLayout = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#edge_flag}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>2</td><td></td></tr>
+<tr><td><code>all</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name com.ujuit.qbcf:edge_flag
+        */
+        public static final int SwipeBackLayout_edge_flag = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#edge_size}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ujuit.qbcf:edge_size
+        */
+        public static final int SwipeBackLayout_edge_size = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#shadow_bottom}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:shadow_bottom
+        */
+        public static final int SwipeBackLayout_shadow_bottom = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#shadow_left}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:shadow_left
+        */
+        public static final int SwipeBackLayout_shadow_left = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.ujuit.qbcf.R.attr#shadow_right}
+          attribute's value can be found in the {@link #SwipeBackLayout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.ujuit.qbcf:shadow_right
+        */
+        public static final int SwipeBackLayout_shadow_right = 3;
+    };
 }
