@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
+    <string name="app_name">千般财富</string>
+    <string name="hello_world">Hello world!</string>
+    
+	<string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+=======
     <string name="app_name">riches</string>
     <string name="hello_world">Hello world!</string>
+>>>>>>> origin/master
 
 </resources>
